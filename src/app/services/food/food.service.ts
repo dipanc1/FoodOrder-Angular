@@ -13,10 +13,10 @@ export class FoodService {
       {
         id: 1,
         name: 'Salamon',
-        price: 10,
-        cookTime: '30',
+        price: 12.99,
+        cookTime: '15-20',
         favorite: false,
-        star: 4.0,
+        star: [1, 2, 3],
         origins: ['Italy'],
         tags: ['salamon', 'italy'],
         imageUrl: '/assets/food-1.jpg'
@@ -24,10 +24,10 @@ export class FoodService {
       {
         id: 2,
         name: 'Crossiant',
-        price: 40,
-        cookTime: '10',
+        price: 3,
+        cookTime: '1-5',
         favorite: false,
-        star: 4.0,
+        star: [1, 2, 3, 4, 5],
         origins: ['France'],
         tags: ['crossiant', 'france'],
         imageUrl: '/assets/food-2.jpg'
@@ -35,10 +35,10 @@ export class FoodService {
       {
         id: 3,
         name: ' Noodles',
-        price: 20,
-        cookTime: '302',
+        price: 10,
+        cookTime: '10-15',
         favorite: false,
-        star: 4.0,
+        star: [1, 2, 3, 4],
         origins: ['China'],
         tags: ['noodles', 'china'],
         imageUrl: '/assets/food-3.jpg'
@@ -46,10 +46,10 @@ export class FoodService {
       {
         id: 4,
         name: 'Curry',
-        price: 360,
-        cookTime: '320',
+        price: 16,
+        cookTime: '40-50',
         favorite: false,
-        star: 4.0,
+        star: [1, 2, 3, 4],
         origins: ['India'],
         tags: ['curry', 'india'],
         imageUrl: '/assets/food-4.jpg'
@@ -57,10 +57,10 @@ export class FoodService {
       {
         id: 5,
         name: 'SOME-TURKISH-DISH',
-        price: 340,
-        cookTime: '130',
+        price: 12,
+        cookTime: '20-30',
         favorite: false,
-        star: 4.9,
+        star: [1, 2, 3],
         origins: ['Turkey'],
         tags: ['turkish', 'turkey'],
         imageUrl: '/assets/food-5.jpg'
@@ -68,10 +68,10 @@ export class FoodService {
       {
         id: 6,
         name: 'Burger',
-        price: 340,
-        cookTime: '330',
+        price: 15,
+        cookTime: '10-15',
         favorite: false,
-        star: 1.0,
+        star: [1, 2, 3],
         origins: ['USA'],
         tags: ['burger', 'usa'],
         imageUrl: '/assets/food-6.jpg'
