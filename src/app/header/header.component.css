@@ -35,3 +35,7 @@ nav ul li a {
   padding: 1em;
   display: inline-block;
 }
+
+b {
+  color: rgb(8, 251, 8);
+}
